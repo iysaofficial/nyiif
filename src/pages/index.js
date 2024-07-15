@@ -6,9 +6,9 @@ import { Mainhero } from "@/components/Mainhero";
 import { Organized } from "@/components/organized";
 import { About } from "@/components/about";
 import { Process } from "@/components/process";
-import Services from "@/components/Services";
+import Services from "@/components/services";
 import Afterevent from "@/components/afterevent";
-import Contact from '@/components/Contact';
+import Contact from '@/components/contact';
 import { Footer } from "@/components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
