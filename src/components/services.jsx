@@ -5,7 +5,7 @@ const Services = ({ services }) => {
     <div id="services" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>Categories</h2>
+          <h2>Kategori</h2>
         </div>
         <div className="row">
           <div className="col-md-4">

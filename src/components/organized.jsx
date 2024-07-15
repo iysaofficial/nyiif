@@ -5,7 +5,7 @@ export const Organized = (props) => {
     <section id="organized" className="organized-section text-center">
       <div className="container">
         <div className="section-title">
-          <h2>ORGANIZED BY</h2>
+          <h2>Diselenggarakan oleh</h2>
         </div>
         <div className="row">
           <div className="iysa col-xs-12 col-md-6">

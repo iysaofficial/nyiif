@@ -5,7 +5,7 @@ export const Footer = (props) => {
         <div className="container text-center text-md-left">
           <div className="row text-center text-md-left">
             <div className="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
-              <h3 className="text-uppercase mb-4 font-weight-bold">About Us</h3>
+              <h3 className="text-uppercase mb-4 font-weight-bold">Tentang Kami</h3>
               <p>
                 By looking at the development and knowledge of children today about science, invention and innovation, especially in the field of science, it requires us to know the extent of the students insights, knowledge and abilities in applying their knowledge of science.
               </p>
@@ -36,16 +36,16 @@ export const Footer = (props) => {
             </div>
   
             <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-              <h3 className="text-uppercase mb-4 font-weight-bold">Information Links</h3>
+              <h3 className="text-uppercase mb-4 font-weight-bold">TAUTAN INFORMASI</h3>
               <ul className="list-unstyled">
                 <li className="my-2">
-                  <a href="./#" className="text-white">Home</a>
+                  <a href="./#" className="text-white">Beranda</a>
                 </li>
                 <li className="my-2">
-                  <a href="./#about" className="text-white">About</a>
+                  <a href="./#about" className="text-white">Tentang Kami</a>
                 </li>
                 <li className="my-2">
-                  <a href="./#contact" className="text-white">Contact</a>
+                  <a href="./#contact" className="text-white">Kontak</a>
                 </li>
               </ul>
             </div>
@@ -55,7 +55,7 @@ export const Footer = (props) => {
   
           <div className="">
               <p className="text-center">
-                &copy; 2024 Official NYIIF. Design by <a href="./#" className="text-white" rel="nofollow">IYSA IT</a>
+                &copy; 2024 Official NYIIF. Desain oleh <a href="./#" className="text-white" rel="nofollow">IYSA IT</a>
               </p>
           </div>
         </div>

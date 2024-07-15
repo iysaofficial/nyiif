@@ -39,10 +39,9 @@ const Contact = ({ contactInfo }) => {
         <div className="col-md-8">
           <div className="row">
             <div className="section-title">
-              <h2>Get In Touch</h2>
+              <h2>Hubungi Kami</h2>
               <p>
-                Please fill out the form below to send us an email and we will
-                get back to you as soon as possible.
+              Silakan isi formulir di bawah ini untuk mengirimkan email kepada kami dan kami akan menghubungi Anda sesegera mungkin.
               </p>
             </div>
             <form onSubmit={handleSubmit} name="sentMessage">
@@ -54,7 +53,7 @@ const Contact = ({ contactInfo }) => {
                       id="name"
                       name="name"
                       className="form-control"
-                      placeholder="Name"
+                      placeholder="Nama"
                       value={name}
                       onChange={handleChange}
                       required
@@ -84,7 +83,7 @@ const Contact = ({ contactInfo }) => {
                   id="message"
                   className="form-control"
                   rows="4"
-                  placeholder="Message"
+                  placeholder="Pesan"
                   value={message}
                   onChange={handleChange}
                   required
@@ -97,17 +96,17 @@ const Contact = ({ contactInfo }) => {
                 value="send"
                 className="btn btn-custom btn-lg"
               >
-                Send Message
+                Kirim Pesan
               </button>
             </form>
           </div>
         </div>
         <div className="col-md-3 col-md-offset-1 contact-info">
           <div className="contact-item">
-            <h3>Contact Info</h3>
+            <h3>Informasi Kontak</h3>
             <p>
               <span>
-                <i className="fa fa-map-marker"></i> Address
+                <i className="fa fa-map-marker"></i>Alamat
               </span>
               <span>
                 <a
@@ -124,7 +123,7 @@ const Contact = ({ contactInfo }) => {
           <div className="contact-item">
             <p>
               <span>
-                <i className="fa fa-phone"></i> Phone
+                <i className="fa fa-phone"></i>Nomor Telepon
               </span>
               <a
                 href="https://api.whatsapp.com/send/?phone=6281770914129&text&type=phone_number&app_absent=0"

@@ -25,11 +25,11 @@ const navigation = () => {
       >
         <div className="container">
           <Image
-            src="/assets/img/gyifLogo.png"
+            src="/assets/img/nyifLogo.png"
             width={100} // Sesuaikan lebar gambar
             height={50} // Sesuaikan tinggi gambar
             className="img-fluid"
-            alt="ISPC LOGO"
+            alt="NYIIF LOGO"
           />
           <button
             className="navbar-toggler"
@@ -54,8 +54,8 @@ const navigation = () => {
                 <Link href="/faq/faqpage" legacyBehavior>
                   <a className="nav-item nav-link">FAQ </a>
                 </Link>
-                <Link href="/contactpages" legacyBehavior>
-                  <a className="nav-item nav-link">Contact</a>
+                <Link href="/#contact" legacyBehavior>
+                  <a className="nav-item nav-link">Kontak</a>
                 </Link>
               </ul>
             </div>

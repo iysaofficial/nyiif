@@ -16,8 +16,8 @@ export const About = (props) => {
           </div>
           <div className="col-xs-12 col-md-6">
             <div className="about-text mt-lg-0 mt-5">
-              <h2>About Us</h2>
-              <h3>GLOBAL YOUTH INVENTION AND INNOVATION FAIR </h3>
+              <h2>Tentang Kami</h2>
+              <h3>NATIONAL YOUTH INVENTION AND INNOVATION FAIR </h3>
               <p>
                 Milenial generation is an individual that experiencing
                 development especially for emotional on psychologically. so that
